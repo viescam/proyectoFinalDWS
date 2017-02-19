@@ -29,7 +29,7 @@ public class ProductoServiceREST {
     @GET
     @Produces("application/json;charset=UTF-8")
     @Path("/Productos")
-    public List listProductos() {
+    public List<Producto> listProductos() {
         return productoService.listProductos();
     }
     

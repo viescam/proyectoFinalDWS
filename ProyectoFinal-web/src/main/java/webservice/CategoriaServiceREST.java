@@ -39,7 +39,7 @@ public class CategoriaServiceREST {
     @GET
     @Produces("application/json;charset=UTF-8")
     @Path("/Categorias")
-    public List listCategorias() {
+    public List<Categoria> listCategorias() {
         return categoriaService.listCategorias();
     }
         
