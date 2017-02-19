@@ -45,6 +45,7 @@ public class Producto implements Serializable{
     
     @ManyToOne
     @JoinColumn(name="categoria")
+    @XmlTransient
     private Categoria categoria;
     
     public Producto(){}
